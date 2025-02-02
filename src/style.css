@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+
+.img[lazy=loading]{
+background-color: red;
+height: 20px;
+}
