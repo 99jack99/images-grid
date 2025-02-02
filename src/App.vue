@@ -57,6 +57,10 @@ let remove_image = (id_removed) => {
   images.value = filtered_out;
 };
 
+defineExpose({
+  remove_image,
+});
+
 // Sideeffects
 
 useInfiniteScroll(
